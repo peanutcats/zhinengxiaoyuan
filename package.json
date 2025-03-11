@@ -1,0 +1,18 @@
+{
+  "name": "zhinengzhushou-server",
+  "version": "1.0.0",
+  "main": "server/main.js",
+  "scripts": {
+    "server": "node server/main.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "marked": "^15.0.7",
+    "mysql": "^2.18.1",
+    "zhinengzhushou-server": "file:"
+  }
+}
